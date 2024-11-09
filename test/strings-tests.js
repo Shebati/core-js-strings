@@ -535,7 +535,6 @@ describe('strings-tasks optimal implementation', () => {
     if (!fnStr.includes('return')) {
       this.skip();
     }
-
     assert.equal(
       fnStr.includes('concat'),
       true,
